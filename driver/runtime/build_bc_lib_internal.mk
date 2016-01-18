@@ -28,7 +28,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 
 include $(BUILD_SYSTEM)/base_rules.mk
-include $(BUILD_SYSTEM)/dragontc.mk
 BCC_STRIP_ATTR := $(BUILD_OUT_EXECUTABLES)/bcc_strip_attr$(BUILD_EXECUTABLE_SUFFIX)
 
 bc_clang := $(AOSP_CLANG)
